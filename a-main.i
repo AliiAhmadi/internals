@@ -741,6 +741,8 @@ extern int __overflow (FILE *, int);
 int main()
 {
     printf("Hello world\n");
+
+    getchar();
 }
 
 int add(int a, int b)
